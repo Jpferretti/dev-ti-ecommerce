@@ -1,0 +1,20 @@
+{
+  "name": "revisao_html",
+  "version": "1.0.0",
+  "description": "Repositório para aula Web I 2022",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcondesmacaneiro/aula_web1_2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcondesmacaneiro/aula_web1_2022/issues"
+  },
+  "homepage": "https://github.com/marcondesmacaneiro/aula_web1_2022#readme",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.18.9",
+    "eslint": "^7.11.0",
+    "prettier": "^2.0.5"
+  }
+}

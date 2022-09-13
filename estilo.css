@@ -1,0 +1,15 @@
+.leftmenu {
+  position: relative;
+  width: 227px;
+  height: 826px;
+  left: 0px;
+  top: 0px;
+  background: #bebbbb;
+}
+.leftmenu ul {
+  text-align: left;
+}
+.leftmenu ul li {
+  list-style: none;
+  font-family: "Inter";
+}

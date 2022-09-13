@@ -1,7 +1,7 @@
 .leftmenu {
   position: relative;
   width: 227px;
-  height: 826px;
+  height: auto;
   left: 0px;
   top: 0px;
   background: #bebbbb;
@@ -12,4 +12,16 @@
 .leftmenu ul li {
   list-style: none;
   font-family: "Inter";
+}
+.rightmenu {
+  position: absolute;
+  background-color: #d9d9d9;
+  width: 84.5%;
+  height: auto;
+  right: 0.5%;
+  top: 10%;
+}
+.card {
+  margin: 20px;
+  border-color: black;
 }

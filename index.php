@@ -17,6 +17,12 @@
         <?php
         include_once "lib/conexao.php";
         include "menu.php";
+
+        if (isset($_GET["pagina"])) {
+          include $_GET["pagina"] . ".php";
+        } else {
+          include "paginas/home.php";
+        }
         ?>
     </body>
 

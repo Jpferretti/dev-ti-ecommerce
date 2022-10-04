@@ -8,7 +8,22 @@
       "imagem"
     ]; ?>" class="img-fluid" alt="...">
     <h2><?php echo $linha["descricao"]; ?></h2>
-    <?php  ?>
+    <button class="carrinho btn btn-primary">Carrinho
+      <script>
+        $(".carrinho").click(function() {
+          $.post("", {
+            "adicionar_sacola": true
+          }, function(data, status) {
+            Swal.fire({
+              tittle: "Sucesso!",
+              text: 'Seu produto foi adicionado no carrinho',
+              icon: 'success',
+              confirmButtomText: 'ok'
+            })
+          });
+        });
+      </script>
+    </button>
     <table class="table table-striped">
         <tr>
             <th><strong>Especificações</strong></td>

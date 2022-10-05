@@ -20,20 +20,20 @@
                 ]; ?>" class="btn btn-primary">Especificações</a>
                 &nbsp;
                 <button class="carrinho btn btn-primary">Carrinho</a>
-                <script>
-                  $(".carrinho").click(function() {
-                    $.post("", {
-                      "adicionar_sacola": true
-                    }, function(data, status) {
-                      Swal.fire({
-                        tittle: "Sucesso!",
-                        text: 'Seu produto foi adicionado no carrinho',
-                        icon: 'success',
-                        confirmButtomText: 'ok'
-                      })
+                    <script>
+                    $(".carrinho").click(function() {
+                        $.post("", {
+                            "adicionar_sacola": true
+                        }, function(data, status) {
+                            Swal.fire({
+                                tittle: "Sucesso!",
+                                text: 'Seu produto foi adicionado no carrinho',
+                                icon: 'success',
+                                confirmButtomText: 'ok'
+                            })
+                        });
                     });
-                  });
-                </script>
+                    </script>
             </div>
         </div>
         <?php }

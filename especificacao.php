@@ -9,20 +9,20 @@
     ]; ?>" class="img-fluid" alt="...">
     <h2><?php echo $linha["descricao"]; ?></h2>
     <button class="carrinho btn btn-primary">Carrinho
-      <script>
+        <script>
         $(".carrinho").click(function() {
-          $.post("", {
-            "adicionar_sacola": true
-          }, function(data, status) {
-            Swal.fire({
-              tittle: "Sucesso!",
-              text: 'Seu produto foi adicionado no carrinho',
-              icon: 'success',
-              confirmButtomText: 'ok'
-            })
-          });
+            $.post("", {
+                "adicionar_sacola": true
+            }, function(data, status) {
+                Swal.fire({
+                    tittle: "Sucesso!",
+                    text: 'Seu produto foi adicionado no carrinho',
+                    icon: 'success',
+                    confirmButtomText: 'ok'
+                })
+            });
         });
-      </script>
+        </script>
     </button>
     <table class="table table-striped">
         <tr>

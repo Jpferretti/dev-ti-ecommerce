@@ -7,7 +7,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <a class="btn btn-success" href="?pagina=sacola">
-                Sacola (<?php echo count($_SESSION['sacola']); ?>)
+                Sacola (<?php echo count($_SESSION["sacola"]); ?>)
             </a>
         </div>
     </div>
